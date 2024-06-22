@@ -1,3 +1,4 @@
+import sys, os
 from selenium import webdriver
 from selenium.webdriver.edge.service import Service as EdgeService
 from selenium.webdriver.common.by import By
@@ -9,7 +10,7 @@ input_id = input("당신의 디시인사이드 아이디를 입력하세요: ")
 input_pw = input("당신의 디시인사이드 비밀번호를 입력하세요: ")
 
 # Microsoft Edge WebDriver 경로 설정
-edge_driver_path = "msedgedriver.exe"  # Edge WebDriver의 경로를 지정하세요
+edge_driver_path = os.path.join(sys._MEIPASS, "msedgedriver.exe")  # Edge WebDriver의 경로를 지정하세요
 service = EdgeService(edge_driver_path)
 
 # Edge 웹드라이버 실행
