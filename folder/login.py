@@ -18,7 +18,7 @@ driver = webdriver.Chrome(service=service)
 driver.get("https://sign.dcinside.com/login")
 
 # 10초 동안 대기
-time.sleep(5)
+time.sleep(3)
 
 # ID 입력
 id_auto = driver.find_element(By.CLASS_NAME, 'id') # 클래스로 단일 요소 찾기
@@ -30,7 +30,7 @@ pw_auto.send_keys(input_pw)
 pw_auto.send_keys(Keys.ENTER)
 
 # 필요하다면 브라우저를 조금 더 대기시키려면, 시간을 변경하세요.
-time.sleep(5)
+time.sleep(3)
 
 # 사용자 입력을 대기하여 스크립트가 종료되지 않게 합니다.
 input("Press Enter to EXIT and close the browser...")
