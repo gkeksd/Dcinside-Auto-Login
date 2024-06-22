@@ -10,6 +10,8 @@ https://github.com/GoogleChromeLabs/chrome-for-testing/blob/main/data/latest-ver
 마이크로소프트 엣지 브라우저를 사용하는 경우
 https://developer.microsoft.com/ko-kr/microsoft-edge/tools/webdriver?form=MA13LH#downloads에서 엣지 브라우저를 위한 엣지드라이버를 다운받습니다
 
+또는 폴더에 있는 엣지드라이버 실행파일을 그냥 사용해도 됩니다.
+
 ### 드라이버 경로 설정
 압축파일을 해제할 때 이 프로젝트 폴더 안에 넣습니다. 압축 시 폴더 생성은 끕니다.
 
